@@ -1,5 +1,5 @@
-const chai = require('chai');
-const assert = chai.assert;
+import { assert as _assert } from 'chai';
+const assert = _assert;
 
 suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
